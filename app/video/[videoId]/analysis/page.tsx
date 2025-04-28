@@ -22,6 +22,7 @@ const AnalysisPage = () => {
 
   useEffect(() => {
     if (!user?.id) return;
+    console.log(video);
 
     const fetchVideo = async () => {
       //Analyse the video (add video to DB)
